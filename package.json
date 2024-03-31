@@ -2,7 +2,7 @@
   "name": "starter-micro-api",
   "version": "1.0.0",
   "description": "Cyclic.sh micro api starter",
-  "main": null,
+  "main": index.js,
   "scripts": {
     "start": "uvicorn server:app --host 0.0.0.0 --port $PORT"
   },
