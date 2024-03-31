@@ -2,12 +2,11 @@
   "name": "starter-micro-api",
   "version": "1.0.0",
   "description": "Cyclic.sh micro api starter",
-  "main": "server.py",
+  "main": null,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "uvicorn server:app --host 0.0.0.0 --port $PORT"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
